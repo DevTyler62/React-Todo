@@ -4,4 +4,4 @@ The app allows you to create new tasks to be added to your task list. Once a tas
 
 The app was built using React with Vite, Tailwind CSS for the styles, SweetAlert2 for the pop up, and hosted on Vercel.
 
-The demo site can be found here:
+The demo site can be found here: https://todo-crud-app-tc.vercel.app/
