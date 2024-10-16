@@ -1,0 +1,7 @@
+This is a React do list app that has the features for a CRUD app.
+
+The app allows you to create new tasks to be added to your task list. Once a task has been completed you can click on that task for it to be checked off. When you are fully done with the task you can click the trash can icon to delete that task. The list is then updated to take place of the deleted task. A pencil icon is present to allow the user to update a given task if need be. A pop up using Sweetalert2 displays the text for that given task and allows the user to make any changes they want. A edit button is present to save the changes and a cancel button in the event an edit action was clicked by mistake. If the edit text field is left blank an attempt is made to be saved then a dialogue box will be present telling the user to input some text in order to saved. This is so no task can be left empty. The last piece is that all of the data is stored within local storage. If you leave the app and come back the app will look to see if there is any data within local storage to then populate the list of tasks to be done. On a first load or any load when no tasks are in local storage then an empty state is present ready to be filled with any tasks the user inputs.
+
+The app was built using React with Vite, Tailwind CSS for the styles, SweetAlert2 for the pop up, and hosted on Vercel.
+
+The demo site can be found here:
